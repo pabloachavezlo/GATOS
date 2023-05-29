@@ -10,7 +10,7 @@ actualizaGato(api_url);
 
 
 function cargar_datos(data){
-  let dom = document.querySelector(".root");
+  let dom = document.querySelector(".principal");
   data.forEach(element => {
 
     let item = document.createElement("div");
